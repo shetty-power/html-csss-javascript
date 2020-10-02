@@ -1,0 +1,11 @@
+h1{
+	color: #ffffff;
+	font-size: 100%;
+	text-transform:uppercase;
+	font-family: arial,"times new roman",serif;
+
+}
+p{
+	color:#ffffff;
+	background:-webkit-linear-gradient(#00ff00 100%,#ccc 0%);
+}
