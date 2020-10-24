@@ -1,13 +1,17 @@
-tittle{
-  color :#00ff;
+h1{
+  color: #76ff00;
+  font-size: 120px;
 }
-div{
+.openme{
   color:#00ff;
 }
-a nav-brand{
-  color:#00ff;
+.closeme{
+  color: #ccc;
 }
-span navbar-brand mb-0 h1{
-  color: #00ff;
-  text-align: center;
+button{
+  width:150px;
+  background-color: #00ccee;
+  margin:3%;
+  padding: 10%;
+
 }
