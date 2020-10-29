@@ -1,13 +1,13 @@
 h1{
   color: #76ff00;
-  background: #00ff00;
+  background: #00ff;
   font-size: 120px;
 }
 .openme{
-  color:#00ff;
+  text-align:center;
 }
 .closeme{
-  color: #ccc;
+text-align: right;
 }
 button{
   width:150px;
