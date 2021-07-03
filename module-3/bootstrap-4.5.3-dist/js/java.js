@@ -1,19 +1,18 @@
-let image=document.getElementById('img');
-let hide=document.getElementById('hide');
-let show=document.getElementById('show');
-let text=document.getElementById('text');
+let image=document.getElementById('img')
+let hide=document.getElementById('hide')
+let show=document.getElementById('show')
+let text=document.getElementById('text')
+function onclick () {
+	image.style.display='none'
 
-hide.onclick =function () {
-	image.style.display='none';
+}
+function ondblclick () {
+	image.style.display='block'
 	// body...
 }
-show.ondblclick =function () {
-	image.style.display='block';
-	// body...
+function onmouseover(text){
+	text.innerHTML='oops'
 }
-text.onmouseover=function(){
-	text.innerHTML='oops';
-}
-text.onmouseoutr=function(){
-	text.innerHTML='MOUse';
+function onmouseout(text){
+	text.innerHTML='MOUse'
 }
